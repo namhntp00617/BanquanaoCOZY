@@ -107,7 +107,7 @@ public class thongKePanel extends javax.swing.JPanel {
 
     private void btnThongKeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnThongKeActionPerformed
         // TODO add your handling code here:
-        loadDataThongKe();
+
     }//GEN-LAST:event_btnThongKeActionPerformed
 
     private void tblThongKeMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tblThongKeMouseClicked

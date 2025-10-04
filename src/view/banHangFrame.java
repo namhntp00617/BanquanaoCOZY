@@ -274,25 +274,12 @@ public class banHangFrame extends javax.swing.JFrame {
 
     private void tblSanPhamMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tblSanPhamMouseClicked
         // TODO add your handling code here:
-        this.rowSanPham = tblSanPham.getSelectedRow();
+
     }//GEN-LAST:event_tblSanPhamMouseClicked
 
     private void tblChiTietHDMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tblChiTietHDMouseClicked
         // TODO add your handling code here:
-        this.rowChiTietHoaDon = tblChiTietHD.getSelectedRow();
-        int selectedRow = tblChiTietHD.getSelectedRow();
 
-        if (selectedRow != -1) {
-            int row = tblChiTietHD.convertRowIndexToModel(selectedRow);
-
-            DefaultTableModel model = (DefaultTableModel) tblChiTietHD.getModel();
-
-            String soLuong = model.getValueAt(row, 2).toString();
-            String thanhTien = model.getValueAt(row, 4).toString();
-
-            txtSoLuong.setText(soLuong);
-            txtTongTien.setText(thanhTien);
-        }
     }//GEN-LAST:event_tblChiTietHDMouseClicked
 
     /**
