@@ -213,6 +213,7 @@ public class trangChuFrame extends javax.swing.JFrame {
 
     private void btlquanlysanpham2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btlquanlysanpham2ActionPerformed
         // TODO add your handling code here:
+        
     }//GEN-LAST:event_btlquanlysanpham2ActionPerformed
 
     private void btlquanlysanpham3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btlquanlysanpham3MouseClicked
@@ -221,6 +222,7 @@ public class trangChuFrame extends javax.swing.JFrame {
 
     private void btlquanlysanpham3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btlquanlysanpham3ActionPerformed
         // TODO add your handling code here:
+        
     }//GEN-LAST:event_btlquanlysanpham3ActionPerformed
 
     private void btlquanlysanpham4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btlquanlysanpham4MouseClicked

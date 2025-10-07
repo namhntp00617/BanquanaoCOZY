@@ -8,12 +8,12 @@ package view;
  *
  * @author nem mèn mén
  */
-public class khachHangPanel1 extends javax.swing.JPanel {
+public class khachHangPanel extends javax.swing.JPanel {
 
     /**
      * Creates new form khachHangPanel
      */
-    public khachHangPanel1() {
+    public khachHangPanel() {
         initComponents();
     }
 
@@ -83,6 +83,7 @@ public class khachHangPanel1 extends javax.swing.JPanel {
             jTable1.getColumnModel().getColumn(4).setResizable(false);
         }
 
+        jTextField2.setEditable(false);
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField2ActionPerformed(evt);

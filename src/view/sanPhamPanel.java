@@ -8,12 +8,12 @@ package view;
  *
  * @author nem mèn mén
  */
-public class sanPhamPanel1 extends javax.swing.JPanel {
+public class sanPhamPanel extends javax.swing.JPanel {
 
     /**
      * Creates new form sanPhamPanel
      */
-    public sanPhamPanel1() {
+    public sanPhamPanel() {
         initComponents();
     }
 
@@ -66,6 +66,8 @@ public class sanPhamPanel1 extends javax.swing.JPanel {
         jScrollPane1.setViewportView(tblSanPham);
 
         jLabel2.setText("Mã sản phẩm");
+
+        txtMaSanPham.setEditable(false);
 
         jLabel3.setText("Tên sản phẩm");
 

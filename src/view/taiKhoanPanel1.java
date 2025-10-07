@@ -59,6 +59,7 @@ public class taiKhoanPanel1 extends javax.swing.JPanel {
 
         jLabel6.setText("Mã tài khoản");
 
+        jTextField2.setEditable(false);
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField2ActionPerformed(evt);
