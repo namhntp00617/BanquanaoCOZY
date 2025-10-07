@@ -41,7 +41,6 @@ public class banHangFrame1 extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jScrollPane3 = new javax.swing.JScrollPane();
         tblChiTietHD = new javax.swing.JTable();
-        jLabel12 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jTextField2 = new javax.swing.JTextField();
         jLabel6 = new javax.swing.JLabel();
@@ -150,9 +149,6 @@ public class banHangFrame1 extends javax.swing.JFrame {
         });
         jScrollPane3.setViewportView(tblChiTietHD);
 
-        jLabel12.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel12.setText("Mã hóa đơn");
-
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel5.setText("Mã hóa đơn");
 
@@ -203,11 +199,6 @@ public class banHangFrame1 extends javax.swing.JFrame {
                         .addGap(78, 78, 78)
                         .addComponent(jLabel1)))
                 .addContainerGap(284, Short.MAX_VALUE))
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(layout.createSequentialGroup()
-                    .addGap(452, 452, 452)
-                    .addComponent(jLabel12)
-                    .addContainerGap(705, Short.MAX_VALUE)))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -246,11 +237,6 @@ public class banHangFrame1 extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 43, Short.MAX_VALUE)
                 .addComponent(btnTaoHoaDon)
                 .addContainerGap())
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(layout.createSequentialGroup()
-                    .addGap(316, 316, 316)
-                    .addComponent(jLabel12)
-                    .addContainerGap(480, Short.MAX_VALUE)))
         );
 
         pack();
@@ -321,7 +307,6 @@ public class banHangFrame1 extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
