@@ -50,6 +50,7 @@ public class trangChuFrame extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(255, 255, 255));
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -212,6 +213,8 @@ public class trangChuFrame extends javax.swing.JFrame {
         pnlMain.setLayout(new java.awt.BorderLayout());
         pnlMain.add(jLabel5, java.awt.BorderLayout.LINE_END);
 
+        jLabel3.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/vn-11134210-7r98o-llomssp1oqu70e_1.jpg"))); // NOI18N
         jLabel3.setMaximumSize(new java.awt.Dimension(800, 500));
         jLabel3.setMinimumSize(new java.awt.Dimension(800, 500));

@@ -80,13 +80,10 @@ public class hoaDonPanel extends javax.swing.JPanel {
                 {null, null, null, null, null, null}
             },
             new String [] {
-                "Mã HD", "Mã KH", "Thành tiền", "Hình thức thanh toán", "Ngày tạo", "Thanh toán"
+                "Mã HD", "Mã KH", "Thành tiền", "Hình thức thanh toán", "Thanh toán", "Trạng thái"
             }
         ));
         jScrollPane2.setViewportView(jTable2);
-        if (jTable2.getColumnModel().getColumnCount() > 0) {
-            jTable2.getColumnModel().getColumn(5).setHeaderValue("Thanh toán");
-        }
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel5.setText("HOÁ ĐƠN");
