@@ -4,6 +4,8 @@
  */
 package view;
 
+import javax.swing.JLabel;
+
 /**
  *
  * @author ADMIN
@@ -15,6 +17,8 @@ public class danhMucPanel extends javax.swing.JPanel {
      */
     public danhMucPanel() {
         initComponents();
+        JLabel lbl = new JLabel("Đây là giao diện quản lý danh mục");
+        add(lbl);
     }
 
     /**

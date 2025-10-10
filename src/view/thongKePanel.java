@@ -4,6 +4,8 @@
  */
 package view;
 
+import javax.swing.JLabel;
+
 /**
  *
  * @author nem mèn mén
@@ -15,6 +17,8 @@ public class thongKePanel extends javax.swing.JPanel {
      */
     public thongKePanel() {
         initComponents();
+        JLabel lbl = new JLabel("Đây là giao diện quản lý thống kê");
+        add(lbl);
     }
 
     /**

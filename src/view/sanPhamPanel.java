@@ -4,6 +4,8 @@
  */
 package view;
 
+import javax.swing.JLabel;
+
 /**
  *
  * @author nem mèn mén
@@ -15,6 +17,8 @@ public class sanPhamPanel extends javax.swing.JPanel {
      */
     public sanPhamPanel() {
         initComponents();
+        JLabel lbl = new JLabel("Đây là giao diện quản lý sản phẩm");
+        add(lbl);
     }
 
     /**

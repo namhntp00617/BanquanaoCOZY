@@ -5,6 +5,7 @@
 package view;
 
 
+import java.awt.BorderLayout;
 import javax.swing.JPanel;
 
 /**
@@ -19,8 +20,15 @@ public class trangChuFrame extends javax.swing.JFrame {
     public trangChuFrame() {
         initComponents();
         setLocationRelativeTo(null);
+        pnlMain1.setLayout(new BorderLayout());
+        
     }
-    
+    private void hienBang(JPanel panel) {
+        pnlMain1.removeAll();
+        pnlMain1.add(panel, BorderLayout.CENTER);
+        pnlMain1.revalidate();
+        pnlMain1.repaint();
+    }
     
      
      
@@ -47,7 +55,7 @@ public class trangChuFrame extends javax.swing.JFrame {
         btnDanhmuc = new javax.swing.JButton();
         pnlMain = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
+        pnlMain1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 255, 255));
@@ -213,12 +221,12 @@ public class trangChuFrame extends javax.swing.JFrame {
         pnlMain.setLayout(new java.awt.BorderLayout());
         pnlMain.add(jLabel5, java.awt.BorderLayout.LINE_END);
 
-        jLabel3.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/vn-11134210-7r98o-llomssp1oqu70e_1.jpg"))); // NOI18N
-        jLabel3.setMaximumSize(new java.awt.Dimension(800, 500));
-        jLabel3.setMinimumSize(new java.awt.Dimension(800, 500));
-        jLabel3.setPreferredSize(new java.awt.Dimension(800, 500));
+        pnlMain1.setBackground(new java.awt.Color(255, 255, 255));
+        pnlMain1.setForeground(new java.awt.Color(255, 255, 255));
+        pnlMain1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/vn-11134210-7r98o-llomssp1oqu70e_1.jpg"))); // NOI18N
+        pnlMain1.setMaximumSize(new java.awt.Dimension(800, 500));
+        pnlMain1.setMinimumSize(new java.awt.Dimension(800, 500));
+        pnlMain1.setPreferredSize(new java.awt.Dimension(800, 500));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -226,8 +234,8 @@ public class trangChuFrame extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 765, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 12, Short.MAX_VALUE)
+                .addComponent(pnlMain1, javax.swing.GroupLayout.PREFERRED_SIZE, 765, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(layout.createSequentialGroup()
@@ -238,9 +246,9 @@ public class trangChuFrame extends javax.swing.JFrame {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, 533, Short.MAX_VALUE)
+            .addComponent(pnlMain1, javax.swing.GroupLayout.DEFAULT_SIZE, 531, Short.MAX_VALUE)
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addComponent(pnlMain, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 533, Short.MAX_VALUE))
+                .addComponent(pnlMain, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 531, Short.MAX_VALUE))
         );
 
         pack();
@@ -260,6 +268,7 @@ public class trangChuFrame extends javax.swing.JFrame {
 
     private void btnSanphamActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSanphamActionPerformed
         // TODO add your handling code here:
+        hienBang(new sanPhamPanel());
         
     }//GEN-LAST:event_btnSanphamActionPerformed
 
@@ -269,6 +278,7 @@ public class trangChuFrame extends javax.swing.JFrame {
 
     private void btnKhachhangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnKhachhangActionPerformed
         // TODO add your handling code here:
+        hienBang(new khachHangPanel());
         
         
     }//GEN-LAST:event_btnKhachhangActionPerformed
@@ -279,6 +289,7 @@ public class trangChuFrame extends javax.swing.JFrame {
 
     private void btnThongkeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnThongkeActionPerformed
         // TODO add your handling code here:
+        hienBang(new thongKePanel());
     }//GEN-LAST:event_btnThongkeActionPerformed
 
     private void btnHoadonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnHoadonMouseClicked
@@ -287,6 +298,7 @@ public class trangChuFrame extends javax.swing.JFrame {
 
     private void btnHoadonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHoadonActionPerformed
         // TODO add your handling code here:
+        hienBang(new hoaDonPanel());
     }//GEN-LAST:event_btnHoadonActionPerformed
 
     private void btnTaikhoanMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnTaikhoanMouseClicked
@@ -295,6 +307,7 @@ public class trangChuFrame extends javax.swing.JFrame {
 
     private void btnTaikhoanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTaikhoanActionPerformed
         // TODO add your handling code here:
+        hienBang(new taiKhoanPanel1());
     }//GEN-LAST:event_btnTaikhoanActionPerformed
 
     private void btnDanhmucMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnDanhmucMouseClicked
@@ -303,6 +316,7 @@ public class trangChuFrame extends javax.swing.JFrame {
 
     private void btnDanhmucActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDanhmucActionPerformed
         // TODO add your handling code here:
+        hienBang(new danhMucPanel());
     }//GEN-LAST:event_btnDanhmucActionPerformed
 
     /**
@@ -351,9 +365,9 @@ public class trangChuFrame extends javax.swing.JFrame {
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel pnlMain;
+    private javax.swing.JLabel pnlMain1;
     // End of variables declaration//GEN-END:variables
 }

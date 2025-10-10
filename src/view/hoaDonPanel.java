@@ -1,5 +1,7 @@
 package view;
 
+import javax.swing.JLabel;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JPanel.java to edit this template
@@ -16,6 +18,8 @@ public class hoaDonPanel extends javax.swing.JPanel {
      */
     public hoaDonPanel() {
         initComponents();
+         JLabel lbl = new JLabel("Đây là giao diện quản lý hóa đơn");
+        add(lbl);
     }
 
     /**
