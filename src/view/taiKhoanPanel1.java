@@ -110,20 +110,20 @@ public class taiKhoanPanel1 extends javax.swing.JPanel {
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null}
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null}
             },
             new String [] {
-                "Mã tài khoản", "Tên tài khoản", "Email", "SDT", "Mật khảu", "Quyền", "Giới tính"
+                "Mã tài khoản", "Tên tài khoản", "Email", "SDT", "Quyền", "Giới tính"
             }
         ));
         jScrollPane1.setViewportView(jTable1);
 
         jLabel1.setText("Tìm kiếm");
 
-        jButton6.setBackground(new java.awt.Color(0, 255, 0));
+        jButton6.setBackground(new java.awt.Color(255, 255, 255));
         jButton6.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton6.setForeground(new java.awt.Color(30, 30, 30));
         jButton6.setText("Thêm");
@@ -133,8 +133,9 @@ public class taiKhoanPanel1 extends javax.swing.JPanel {
         jButton7.setForeground(new java.awt.Color(30, 30, 30));
         jButton7.setText("Sửa");
 
-        jButton5.setBackground(new java.awt.Color(255, 0, 0));
+        jButton5.setBackground(new java.awt.Color(255, 255, 255));
         jButton5.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jButton5.setForeground(new java.awt.Color(30, 30, 30));
         jButton5.setText("Xoá");
 
         jLabel2.setText("Quyền:");

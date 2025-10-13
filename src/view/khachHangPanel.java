@@ -101,8 +101,9 @@ public class khachHangPanel extends javax.swing.JPanel {
         jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel7.setText("KHÁCH HÀNG");
 
-        jButton5.setBackground(new java.awt.Color(255, 0, 0));
+        jButton5.setBackground(new java.awt.Color(255, 255, 255));
         jButton5.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jButton5.setForeground(new java.awt.Color(30, 30, 30));
         jButton5.setText("Xoá");
 
         jButton7.setBackground(new java.awt.Color(255, 255, 255));
@@ -110,7 +111,7 @@ public class khachHangPanel extends javax.swing.JPanel {
         jButton7.setForeground(new java.awt.Color(30, 30, 30));
         jButton7.setText("Sửa");
 
-        jButton6.setBackground(new java.awt.Color(0, 255, 0));
+        jButton6.setBackground(new java.awt.Color(255, 255, 255));
         jButton6.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton6.setForeground(new java.awt.Color(30, 30, 30));
         jButton6.setText("Thêm");

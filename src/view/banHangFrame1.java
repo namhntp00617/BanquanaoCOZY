@@ -205,7 +205,7 @@ public class banHangFrame1 extends javax.swing.JFrame {
         jLabel14.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel14.setText("Tổng Tiền");
 
-        btnTaoHoaDon1.setBackground(new java.awt.Color(0, 255, 0));
+        btnTaoHoaDon1.setBackground(new java.awt.Color(255, 255, 255));
         btnTaoHoaDon1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         btnTaoHoaDon1.setForeground(new java.awt.Color(0, 0, 0));
         btnTaoHoaDon1.setText("Thanh toán");
@@ -216,7 +216,7 @@ public class banHangFrame1 extends javax.swing.JFrame {
             }
         });
 
-        btnTaoHoaDon2.setBackground(new java.awt.Color(255, 0, 0));
+        btnTaoHoaDon2.setBackground(new java.awt.Color(255, 255, 255));
         btnTaoHoaDon2.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         btnTaoHoaDon2.setForeground(new java.awt.Color(0, 0, 0));
         btnTaoHoaDon2.setText("Xoá hoá đơn");

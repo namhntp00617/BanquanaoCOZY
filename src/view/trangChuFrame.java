@@ -130,9 +130,9 @@ public class trangChuFrame extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setBackground(new java.awt.Color(255, 0, 0));
+        jButton2.setBackground(new java.awt.Color(30, 30, 30));
         jButton2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(30, 30, 30));
+        jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("Đăng xuất");
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/Ảnh chụp màn hình 2025-10-04 073903.png"))); // NOI18N
