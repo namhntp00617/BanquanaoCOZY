@@ -78,13 +78,13 @@ public class hoaDonPanel extends javax.swing.JPanel {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null},
-                {null, null, null, null, null, null},
-                {null, null, null, null, null, null},
-                {null, null, null, null, null, null}
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null}
             },
             new String [] {
-                "Mã HD", "Mã KH", "Thành tiền", "Hình thức thanh toán", "Thanh toán", "Trạng thái"
+                "Mã HD", "Tên KH", "Thành tiền", "Hình thức thanh toán", "Trạng thái"
             }
         ));
         jScrollPane2.setViewportView(jTable2);
