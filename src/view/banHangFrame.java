@@ -4,17 +4,21 @@
  */
 package view;
 
+import javax.swing.JLabel;
+
 /**
  *
  * @author nem mèn mén
  */
-public class banHangFrame1 extends javax.swing.JFrame {
+public class banHangFrame extends javax.swing.JFrame {
 
     /**
      * Creates new form banHangFrame
      */
-    public banHangFrame1() {
+    public banHangFrame() {
         initComponents();
+        JLabel lbl = new JLabel("Đây là giao diện quản lý bán hàng ");
+        add(lbl);
     }
 
     /**
@@ -411,21 +415,23 @@ public class banHangFrame1 extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(banHangFrame1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(banHangFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(banHangFrame1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(banHangFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(banHangFrame1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(banHangFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(banHangFrame1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(banHangFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new banHangFrame1().setVisible(true);
+                new banHangFrame().setVisible(true);
             }
         });
     }

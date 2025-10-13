@@ -260,6 +260,9 @@ public class trangChuFrame extends javax.swing.JFrame {
 
     private void btnBanhangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBanhangActionPerformed
         // TODO add your handling code here:
+        banHangFrame frame = new banHangFrame();
+    frame.setVisible(true);     
+    frame.setLocationRelativeTo(null);
     }//GEN-LAST:event_btnBanhangActionPerformed
 
     private void btnSanphamMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSanphamMouseClicked
